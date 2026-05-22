@@ -116,6 +116,7 @@ const AWARD_PLAYERS = [
   { name: 'Pau Cubarsí', country: 'Spain' },
   { name: 'Dani Carvajal', country: 'Spain' },
   { name: 'Álvaro Morata', country: 'Spain' },
+  { name: 'Jokin Oyarzabal', country: 'Spain' },
   { name: 'Gavi', country: 'Spain' },
   { name: 'Mikel Merino', country: 'Spain' },
   { name: 'Aleix García', country: 'Spain' },
