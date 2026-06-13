@@ -24,7 +24,7 @@ const RESULTS = {
     },
     "C": {},
     "D": {
-      "USA_Paraguay": { "home": 4, "away": 1 }
+      "USA__Paraguay": { "home": 4, "away": 1 }
     },
     "E": {},
     "F": {},
