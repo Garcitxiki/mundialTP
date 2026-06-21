@@ -42,7 +42,7 @@ const RESULTS = {
     "E": {
       "Germany__Curaçao": { "home": 7, "away": 1 },
       "Ivory Coast__Ecuador": { "home": 1, "away": 0 },
-      "Eciador__Curaçao": { "home": 0, "away": 0 },
+      "Ecuador__Curaçao": { "home": 0, "away": 0 },
       "Germany__Ivory Coast": { "home": 2, "away": 1 }
     },
     "F": {
