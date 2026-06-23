@@ -67,7 +67,7 @@ const RESULTS = {
       "France__Senegal": { "home": 3, "away": 1 },
       "Iraq__Norway": { "home": 1, "away": 4 },
       "France__Iraq": { "home": 3, "away": 0 },
-      "Norway_Senegal": { "home": 3, "away": 2 }
+      "Norway__Senegal": { "home": 3, "away": 2 }
     },
     "J": {
       "Argentina__Algeria": { "home": 3, "away": 0 },
