@@ -54,11 +54,35 @@ const RESULTS = {
       "Senegal",
       "Iraq"
     ],
-    "J": [],
-    "K": [],
-    "L": []
+    "J": [
+      "Argentina",
+      "Austria",
+      "Algeria",
+      "Jordan"
+    ],
+    "K": [
+      "Colombia",
+      "Portugal",
+      "DR Congo",
+      "Uzbekistan"
+    ],
+    "L": [
+      "England",
+      "Croatia",
+      "Ghana",
+      "Panama"
+    ]
   },
-  "thirdPlace": [],
+  "thirdPlace": [
+    "Bosnia & Herzegovina",
+    "Paraguay",
+    "Ecuador",
+    "Sweden",
+    "Senegal",
+    "Algeria",
+    "DR Congo",
+    "Ghana"
+  ],
   "groupMatches": {
     "A": {
       "Mexico__South Africa": { "home": 2, "away": 0 },
@@ -113,8 +137,8 @@ const RESULTS = {
       "Iran__New Zealand": { "home": 2, "away": 2 },
       "Belgium__Iran": { "home": 0, "away": 0 },
       "New Zealand__Egypt": { "home": 1, "away": 3 },
-      "New Zealand__Belgium": { "home": 1, "away": 5 },
-      "Egypt__Iran": { "home": 1, "away": 1 }
+      "Egypt__Iran": { "home": 1, "away": 1 },
+      "New Zealand__Belgium": { "home": 1, "away": 5 }
     },
     "H": {
       "Spain__Cape Verde": { "home": 0, "away": 0 },
@@ -136,23 +160,46 @@ const RESULTS = {
       "Argentina__Algeria": { "home": 3, "away": 0 },
       "Austria__Jordan": { "home": 3, "away": 1 },
       "Argentina__Austria": { "home": 2, "away": 0 },
-      "Jordan__Algeria": { "home": 1, "away": 2 }
+      "Jordan__Algeria": { "home": 1, "away": 2 },
+      "Algeria__Austria": { "home": 3, "away": 3 },
+      "Jordan__Argentina": { "home": 1, "away": 3 }
     },
     "K": {
       "Portugal__DR Congo": { "home": 1, "away": 1 },
       "Uzbekistan__Colombia": { "home": 1, "away": 3 },
       "Portugal__Uzbekistan": { "home": 5, "away": 0 },
-      "Colombia__DR Congo": { "home": 1, "away": 0 }
+      "Colombia__DR Congo": { "home": 1, "away": 0 },
+      "Colombia__Portugal": { "home": 0, "away": 0 },
+      "DR Congo__Uzbekistan": { "home": 3, "away": 1 }
     },
     "L": {
       "England__Croatia": { "home": 4, "away": 2 },
       "Ghana__Panama": { "home": 1, "away": 0 },
       "England__Ghana": { "home": 0, "away": 0 },
-      "Panama__Croatia": { "home": 0, "away": 1 }
+      "Panama__Croatia": { "home": 0, "away": 1 },
+      "Panama__England": { "home": 0, "away": 2 },
+      "Croatia__Ghana": { "home": 2, "away": 1 }
     }
   },
   "knockout": {
-    "round32": [],
+    "round32": [
+      "Mexico", "South Africa",
+      "Switzerland", "Canada",
+      "Brazil", "Morocco",
+      "USA", "Australia",
+      "Germany", "Ivory Coast",
+      "Netherlands", "Japan",
+      "Belgium", "Egypt",
+      "Spain", "Cape Verde",
+      "France", "Norway",
+      "Argentina", "Austria",
+      "Colombia", "Portugal",
+      "England", "Croatia",
+      "Bosnia & Herzegovina", "Paraguay",
+      "Ecuador", "Sweden",
+      "Senegal", "Algeria",
+      "DR Congo", "Ghana"
+    ],
     "round16": [],
     "quarterfinals": [],
     "semifinals": [],
