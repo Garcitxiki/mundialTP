@@ -597,8 +597,8 @@ async function loadData() {
       ],
       quarterfinals: [
         {num:97,slot1:{type:'winner_of',matchNum:89},slot2:{type:'winner_of',matchNum:90}},
-        {num:98,slot1:{type:'winner_of',matchNum:91},slot2:{type:'winner_of',matchNum:92}},
-        {num:99,slot1:{type:'winner_of',matchNum:93},slot2:{type:'winner_of',matchNum:94}},
+        {num:98,slot1:{type:'winner_of',matchNum:93},slot2:{type:'winner_of',matchNum:94}},
+        {num:99,slot1:{type:'winner_of',matchNum:91},slot2:{type:'winner_of',matchNum:92}},
         {num:100,slot1:{type:'winner_of',matchNum:95},slot2:{type:'winner_of',matchNum:96}}
       ],
       semifinals: [
@@ -2713,13 +2713,16 @@ function buildKnockoutReviewState(source) {
   function applyRound(roundName, treeRound) {
     const explicitMatches = knockout.matches?.[roundName];
 
-    // New payload format: use the official match number as source of truth.
-    // This is important for the leaderboard review because the real bracket may
-    // not be reproducible from the predicted group path. If results.js says
-    // match 101 is Portugal vs Norway, the popup/bracket for match 101 must show
-    // exactly that, regardless of what the computed bracket path would produce.
     if (Array.isArray(explicitMatches)) {
-      explicitMatches.forEach(setExplicitMatch);
+      // New payload format: only collect winners into knockoutResults.
+      // matchTeams will be (re)derived in a single computeMatchTeams() call after
+      // all rounds are processed, so stale stored team names are never applied.
+      explicitMatches.forEach(item => {
+        if (!item || item.match === undefined || item.match === null) return;
+        const matchNum = Number(item.match);
+        if (!Number.isFinite(matchNum)) return;
+        if (item.winner) state.knockoutResults[matchNum] = item.winner;
+      });
       return;
     }
 
@@ -2740,6 +2743,11 @@ function buildKnockoutReviewState(source) {
   applyRound('semifinals', KO_TREE.semifinals || []);
   applyRound('thirdPlace', KO_TREE.thirdPlace || []);
   applyRound('final', KO_TREE.final || []);
+
+  // For new-format payloads: now that all winners are in knockoutResults, recompute
+  // matchTeams in one pass. computeMatchTeams() uses knockoutResults[prevMatch] to
+  // resolve each round's slots, so R16 teams come from R32 winners, QF from R16, etc.
+  if (knockout.matches) computeMatchTeams();
 
   // Legacy fallbacks for old results/predictions without knockout.matches.final
   // or knockout.matches.thirdPlace.
