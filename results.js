@@ -200,7 +200,7 @@ const RESULTS = {
       "Senegal", "Algeria",
       "DR Congo", "Ghana"
     ],
-    "round16": [],
+    "round16": ["Canada"],
     "quarterfinals": [],
     "semifinals": [],
     "champion": "",
