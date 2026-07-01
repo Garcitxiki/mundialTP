@@ -74,14 +74,14 @@ const RESULTS = {
     ]
   },
   "thirdPlace": [
-    "Bosnia & Herzegovina",
-    "Paraguay",
-    "Ecuador",
-    "Sweden",
-    "Senegal",
-    "Algeria",
     "DR Congo",
-    "Ghana"
+    "Sweden",
+    "Ecuador",
+    "Ghana",
+    "Bosnia & Herzegovina",
+    "Algeria",
+    "Paraguay",
+    "Senegal"
   ],
   "groupMatches": {
     "A": {
@@ -183,27 +183,15 @@ const RESULTS = {
   },
   "knockout": {
     "round32": [
-      "Mexico", "South Africa",
-      "Switzerland", "Canada",
-      "Brazil", "Morocco",
-      "USA", "Australia",
-      "Germany", "Ivory Coast",
-      "Netherlands", "Japan",
-      "Belgium", "Egypt",
-      "Spain", "Cape Verde",
-      "France", "Norway",
-      "Argentina", "Austria",
-      "Colombia", "Portugal",
-      "England", "Croatia",
-      "Bosnia & Herzegovina", "Paraguay",
-      "Ecuador", "Sweden",
-      "Senegal", "Algeria",
-      "DR Congo", "Ghana"
+      "Canada",
+      "Paraguay",
+      "Morocco",
+      "Brazil",
+      "France",
+      "Norway",
+      "Mexico"
     ],
-    "round16": [
-      "Canada", , "Brazil", 
-      "Morocco", "Paraguay",
-    ],
+    "round16": [],
     "quarterfinals": [],
     "semifinals": [],
     "champion": "",
@@ -213,8 +201,130 @@ const RESULTS = {
     "final": "",
     "thirdPlace": "",
     "matches": {
-      "round32": [],
-      "round16": [],
+      "round32": [
+        {
+          "match": 73,
+          "team1": "South Africa",
+          "team2": "Canada",
+          "winner": "Canada"
+        },
+        {
+          "match": 74,
+          "team1": "Germany",
+          "team2": "Paraguay",
+          "winner": "Paraguay"
+        },
+        {
+          "match": 75,
+          "team1": "Netherlands",
+          "team2": "Morocco",
+          "winner": "Morocco"
+        },
+        {
+          "match": 76,
+          "team1": "Brazil",
+          "team2": "Japan",
+          "winner": "Brazil"
+        },
+        {
+          "match": 77,
+          "team1": "France",
+          "team2": "Sweden",
+          "winner": "France"
+        },
+        {
+          "match": 78,
+          "team1": "Ivory Coast",
+          "team2": "Norway",
+          "winner": "Norway"
+        },
+        {
+          "match": 79,
+          "team1": "Mexico",
+          "team2": "Ecuador",
+          "winner": "Mexico"
+        },
+        {
+          "match": 80,
+          "team1": "England",
+          "team2": "DR Congo",
+          "winner": null
+        },
+        {
+          "match": 81,
+          "team1": "USA",
+          "team2": "Bosnia & Herzegovina",
+          "winner": null
+        },
+        {
+          "match": 82,
+          "team1": "Belgium",
+          "team2": "Senegal",
+          "winner": null
+        },
+        {
+          "match": 83,
+          "team1": "Portugal",
+          "team2": "Croatia",
+          "winner": null
+        },
+        {
+          "match": 84,
+          "team1": "Spain",
+          "team2": "Austria",
+          "winner": null
+        },
+        {
+          "match": 85,
+          "team1": "Switzerland",
+          "team2": "Algeria",
+          "winner": null
+        },
+        {
+          "match": 86,
+          "team1": "Argentina",
+          "team2": "Cape Verde",
+          "winner": null
+        },
+        {
+          "match": 87,
+          "team1": "Colombia",
+          "team2": "Ghana",
+          "winner": null
+        },
+        {
+          "match": 88,
+          "team1": "Australia",
+          "team2": "Egypt",
+          "winner": null
+        }
+      ],
+      "round16": [
+        {
+          "match": 89,
+          "team1": "Canada",
+          "team2": "Morocco",
+          "winner": null
+        },
+        {
+          "match": 90,
+          "team1": "Paraguay",
+          "team2": "France",
+          "winner": null
+        },
+        {
+          "match": 91,
+          "team1": "Brazil",
+          "team2": "Norway",
+          "winner": null
+        },
+        {
+          "match": 92,
+          "team1": "Mexico",
+          "team2": null,
+          "winner": null
+        }
+      ],
       "quarterfinals": [],
       "semifinals": [],
       "thirdPlace": [],
