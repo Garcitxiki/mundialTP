@@ -266,13 +266,13 @@ const RESULTS = {
           "match": 83,
           "team1": "Portugal",
           "team2": "Croatia",
-          "winner": null
+          "winner": "Portugal"
         },
         {
           "match": 84,
           "team1": "Spain",
           "team2": "Austria",
-          "winner": null
+          "winner": "Spain"
         },
         {
           "match": 85,
