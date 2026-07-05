@@ -191,7 +191,7 @@ const RESULTS = {
       "Norway",
       "Mexico"
     ],
-    "round16": [],
+    "round16": ["Canada", "Paraguay", "Morocco", "Brazil", "France", "Norway", "Mexico", "England", "USA", "Belgium", "Portugal", "Spain", "Switzerland", "Argentina", "Colombia", "Egypt"],
     "quarterfinals": [],
     "semifinals": [],
     "champion": "",
@@ -278,25 +278,25 @@ const RESULTS = {
           "match": 85,
           "team1": "Switzerland",
           "team2": "Algeria",
-          "winner": null
+          "winner": "Switzerland"
         },
         {
           "match": 86,
           "team1": "Argentina",
           "team2": "Cape Verde",
-          "winner": null
+          "winner": "Argentina"
         },
         {
           "match": 87,
           "team1": "Colombia",
           "team2": "Ghana",
-          "winner": null
+          "winner": "Colombia"
         },
         {
           "match": 88,
           "team1": "Australia",
           "team2": "Egypt",
-          "winner": null
+          "winner": "Egypt"
         }
       ],
       "round16": [
@@ -304,13 +304,13 @@ const RESULTS = {
           "match": 89,
           "team1": "Canada",
           "team2": "Morocco",
-          "winner": null
+          "winner": "Morocco"
         },
         {
           "match": 90,
           "team1": "Paraguay",
           "team2": "France",
-          "winner": null
+          "winner": "France"
         },
         {
           "match": 91,
@@ -321,7 +321,31 @@ const RESULTS = {
         {
           "match": 92,
           "team1": "Mexico",
-          "team2": null,
+          "team2": "England",
+          "winner": null
+        },
+        {
+          "match": 93,
+          "team1": "Portugal",
+          "team2": "Spain",
+          "winner": null
+        },
+        {
+          "match": 94,
+          "team1": "USA",
+          "team2": "Belgium",
+          "winner": null
+        },
+        {
+          "match": 95,
+          "team1": "Argentina",
+          "team2": "Egypt",
+          "winner": null
+        },
+        {
+          "match": 96,
+          "team1": "Switzerland",
+          "team2": "Colombia",
           "winner": null
         }
       ],
