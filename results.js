@@ -328,13 +328,13 @@ const RESULTS = {
           "match": 93,
           "team1": "Portugal",
           "team2": "Spain",
-          "winner": null
+          "winner": "Spain"
         },
         {
           "match": 94,
           "team1": "USA",
           "team2": "Belgium",
-          "winner": null
+          "winner": "Belgium
         },
         {
           "match": 95,
