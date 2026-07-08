@@ -340,13 +340,13 @@ const RESULTS = {
           "match": 95,
           "team1": "Argentina",
           "team2": "Egypt",
-          "winner": null
+          "winner": "Argentina"
         },
         {
           "match": 96,
           "team1": "Switzerland",
           "team2": "Colombia",
-          "winner": null
+          "winner": "Switzerland"
         }
       ],
       "quarterfinals": [],
