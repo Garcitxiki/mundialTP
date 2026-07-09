@@ -189,9 +189,27 @@ const RESULTS = {
       "Brazil",
       "France",
       "Norway",
-      "Mexico"
+      "Mexico",
+      "England",
+      "USA",
+      "Belgium",
+      "Portugal",
+      "Spain",
+      "Switzerland",
+      "Argentina",
+      "Colombia",
+      "Egypt"
     ],
-    "round16": ["Canada", "Paraguay", "Morocco", "Brazil", "France", "Norway", "Mexico", "England", "USA", "Belgium", "Portugal", "Spain", "Switzerland", "Argentina", "Colombia", "Egypt"],
+    "round16": [
+      "Morocco",
+      "France",
+      "Norway",
+      "England",
+      "Spain",
+      "Belgium",
+      "Argentina",
+      "Switzerland"
+    ],
     "quarterfinals": [],
     "semifinals": [],
     "champion": "",
@@ -349,7 +367,32 @@ const RESULTS = {
           "winner": "Switzerland"
         }
       ],
-      "quarterfinals": [],
+      "quarterfinals": [
+        {
+          "match": 97,
+          "team1": "Morocco",
+          "team2": "France",
+          "winner": null
+        },
+        {
+          "match": 98,
+          "team1": "Spain",
+          "team2": "Belgium",
+          "winner": null
+        },
+        {
+          "match": 99,
+          "team1": "Norway",
+          "team2": "England",
+          "winner": null
+        },
+        {
+          "match": 100,
+          "team1": "Argentina",
+          "team2": "Switzerland",
+          "winner": null
+        }
+      ],
       "semifinals": [],
       "thirdPlace": [],
       "final": []
