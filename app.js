@@ -2688,10 +2688,11 @@ function buildKnockoutReviewState(source) {
 
   state.groups = JSON.parse(JSON.stringify(source.groups || {}));
   state.thirdPlace = [...(source.thirdPlace || [])];
-  state.groupMatches = JSON.parse(JSON.stringify(source.groupMatches || {}));
+  state.groupMatches = normalizeGroupMatchesForStandings(source.groupMatches || {});
   state.knockoutResults = {};
   state.matchTeams = {};
 
+  updateAllGroupOrdersFromMatches();
   buildTPAllocation();
   computeMatchTeams();
 
