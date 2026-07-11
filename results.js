@@ -378,7 +378,7 @@ const RESULTS = {
           "match": 98,
           "team1": "Spain",
           "team2": "Belgium",
-          "winner": null
+          "winner": "Spain"
         },
         {
           "match": 99,
