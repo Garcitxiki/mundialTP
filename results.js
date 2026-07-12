@@ -384,13 +384,13 @@ const RESULTS = {
           "match": 99,
           "team1": "Norway",
           "team2": "England",
-          "winner": null
+          "winner": "England"
         },
         {
           "match": 100,
           "team1": "Argentina",
           "team2": "Switzerland",
-          "winner": null
+          "winner": "Argentina"
         }
       ],
       "semifinals": [],
